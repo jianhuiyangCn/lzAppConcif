@@ -1,5 +1,5 @@
 server:
-  port: 8030
+  port: 8020
 
 spring:
   application:
@@ -8,9 +8,9 @@ spring:
   datasource:
     druid: 
       #测试环境
-      url: jdbc:mysql://192.168.16.219:3306/zhsq0505?useUnicode=true&characterEncoding=utf-8
-      username: rootsa
-      password: rootsa
+      url: jdbc:mysql://121.43.233.93:3306/pre_zhsq0802?useUnicode=true&characterEncoding=utf-8
+      username: newlezhu
+      password: lezhu@1234
       #或 spring.datasource.driver-class-name: 
       driver-class-name: com.mysql.jdbc.Driver
       # 连接池初始化大小，最小，最大
